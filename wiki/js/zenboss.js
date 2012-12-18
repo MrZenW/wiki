@@ -11,7 +11,7 @@ window.onload = function(){
 
 
 	var header = document.createElement('header');
-	header.innerHTML = '<logo><a href="'+baseUrl+'"><img src="'+baseUrl+'img/Logo.png"/></a></logo>';
+	header.innerHTML = '<logo><a href="/"><img src="'+baseUrl+'img/Logo.png"/></a></logo>';
 
 	var main = document.createElement('div');
 	main.id='main';
