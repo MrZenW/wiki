@@ -1,5 +1,6 @@
 window.onload = function(){
 
+	var baseUrl = 'http://zenboss.com/wiki/';
 	var html = document.body.innerHTML;
 	document.body.innerHTML = "";
 
@@ -10,14 +11,14 @@ window.onload = function(){
 
 
 	var header = document.createElement('header');
-	header.innerHTML = '<logo><a href="/"><img src="img/Logo.png"/></a></logo>';
+	header.innerHTML = '<logo><a href="'+baseUrl+'"><img src="'+baseUrl+'img/Logo.png"/></a></logo>';
 
 	var main = document.createElement('div');
 	main.id='main';
 	main.innerHTML = html;
 
 	var footer = document.createElement('footer');
-	footer.innerHTML = '<img src="img/shadow_down.png" style="width:100%"><div id="copy"><a id="copy_link" href="http://www.zenboss.com">©&nbsp;2009&nbsp;-&nbsp;2012&nbsp;zenboss</a></div>';
+	footer.innerHTML = '<img src="'+baseUrl+'img/shadow_down.png" style="width:100%"><div id="copy"><a id="copy_link" href="http://www.zenboss.com">©&nbsp;2009&nbsp;-&nbsp;2012&nbsp;zenboss</a></div>';
 		
 	page.appendChild(header)
 	page.appendChild(main);
