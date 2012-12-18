@@ -52,8 +52,9 @@ window.onload = function(){
 var zenbossCodeParse = function(text){
 	text+='<p>';
 	// text = text.replace(/\n/g,'<br/>');
-	text = text.replace(/\n/g,'</p><p>');
+	text = text.replace(/\n\n/g,'</p><p>');
 	text+='</p>';
+	text = text.replace(/\n/g,'<br/>');
 	text = text.replace(/\s\s/g,'&nbsp;&nbsp;');
 
 	return text;
