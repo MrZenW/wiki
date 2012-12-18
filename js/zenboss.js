@@ -10,7 +10,7 @@ window.onload = function(){
 
 
 	var header = document.createElement('header');
-	header.innerHTML = '<logo><img src="img/Logo.png"/></logo>';
+	header.innerHTML = '<logo><a href="/"><img src="img/Logo.png"/></a></logo>';
 
 	var main = document.createElement('div');
 	main.id='main';

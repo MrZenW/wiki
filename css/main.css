@@ -9,7 +9,9 @@ pre{
 	color: black;
 	background-color: #F9F9F9;
 	line-height: 1.1em;
+	font-size: 1.2em;
 	overflow:auto;
+
 }
 body{
 
@@ -80,7 +82,7 @@ footer{
 	/*font-size:1.6em;*/
 	font-size: 1.4em;
 	padding: 10px 0px 10px 0px;
-		overflow: auto;
+	overflow: auto;
 }
 
 #copy{
